@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Task 1 - Basics of Web Development</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ===== Header ===== -->
+  <header>
+    <h1>Tisha Lathwal</h1>
+    <p>Aspiring Frontend Developer | MCA Student</p>
+  </header>
+
+  <!-- ===== Navigation ===== -->
+  <nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <!-- ===== Main Content ===== -->
+  <main>
+
+    <!-- About Section -->
+    <section id="about">
+      <h2>About Me</h2>
+      <img 
+        class="about-img" 
+        src="profile.jpg" 
+        alt="My profile picture" />
+      <p>
+        Hi! I'm Tisha, a first-year MCA student passionate about frontend
+        web development. This page is part of Task 1 for the ApexPlanet
+        Web Development Internship, where I'm practicing the basics of
+        HTML, CSS, and JavaScript.
+      </p>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+      <h2>My Skills</h2>
+      <p>Here are some of the technologies I'm currently learning:</p>
+      <ul>
+        <li>HTML5 &amp; semantic structure</li>
+        <li>CSS3 (Flexbox, Grid, responsive design)</li>
+        <li>JavaScript (DOM manipulation, events)</li>
+        <li>React.js</li>
+      </ul>
+    </section>
+
+    <!-- Contact / Interactivity Section -->
+    <section id="contact">
+      <h2>Say Hello</h2>
+      <p>Click the button below to send a quick greeting:</p>
+      <button class="btn" id="greetBtn">Click Me</button>
+      <p class="counter-text">Button clicked: <span id="clickCount">0</span> times</p>
+    </section>
+
+  </main>
+
+  <!-- ===== Footer ===== -->
+  <footer>
+    <p>&copy; 2026 Tisha Lathwal. Built for ApexPlanet Internship - Task 1.</p>
+  </footer>
+
+  <!-- ===== JavaScript ===== -->
+  <script src="script.js"></script>
+
+</body>
+</html>
