@@ -3,35 +3,35 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Task 2 - Intermediate HTML, CSS & JavaScript</title>
+  <title>Task 2 - Web Development</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
-  <!-- ===== Header ===== -->
+  <!-- header -->
   <header>
-    <h1>Task 2 - Intermediate Web Development</h1>
-    <p>Contact Form | Responsive Layout | To-Do List</p>
+    <h1>Intermediate Web Development</h1>
+    <p>Form Validation | To-Do List | Responsive Design</p>
   </header>
 
-  <!-- ===== Navigation (Flexbox) ===== -->
+  <!-- navigation -->
   <nav>
     <a href="#contact">Contact Form</a>
     <a href="#layout">Responsive Layout</a>
     <a href="#todo">To-Do List</a>
   </nav>
 
-  <!-- ===== Main Content (CSS Grid) ===== -->
-  <main class="grid-layout">
+  <!-- main content -->
+  <main>
 
-    <!-- ===== Section 1: Contact Form ===== -->
-    <section id="contact" class="card full-width">
+    <!-- contact form -->
+    <section id="contact" class="card">
       <h2>Contact Form</h2>
-      <form id="contactForm" novalidate>
+      <form id="contactForm">
 
         <div class="form-group">
           <label for="name">Full Name *</label>
-          <input type="text" id="name" placeholder="Enter your full name" />
+          <input type="text" id="name" placeholder="Enter your name" />
           <span class="error" id="nameError"></span>
         </div>
 
@@ -43,7 +43,7 @@
 
         <div class="form-group">
           <label for="message">Message *</label>
-          <textarea id="message" rows="4" placeholder="Write your message here..."></textarea>
+          <textarea id="message" rows="4" placeholder="Write your message..."></textarea>
           <span class="error" id="messageError"></span>
         </div>
 
@@ -53,10 +53,10 @@
       </form>
     </section>
 
-    <!-- ===== Section 2: Responsive Layout Demo ===== -->
-    <section id="layout" class="card full-width">
+    <!-- responsive layout demo -->
+    <section id="layout" class="card">
       <h2>Responsive Layout</h2>
-      <p>This page uses <strong>Flexbox</strong> for navigation and <strong>CSS Grid</strong> for the content layout. Resize the window to see the responsive behavior!</p>
+      <p>This page uses <strong>Flexbox</strong> for navigation and <strong>CSS Grid</strong> for content layout.</p>
       <div class="demo-grid">
         <div class="demo-box">HTML</div>
         <div class="demo-box">CSS</div>
@@ -67,8 +67,8 @@
       </div>
     </section>
 
-    <!-- ===== Section 3: To-Do List ===== -->
-    <section id="todo" class="card full-width">
+    <!-- to-do list -->
+    <section id="todo" class="card">
       <h2>To-Do List</h2>
       <div class="todo-input">
         <input type="text" id="todoInput" placeholder="Enter a task..." />
@@ -80,7 +80,7 @@
 
   </main>
 
-  <!-- ===== Footer ===== -->
+  <!-- footer -->
   <footer>
     <p>&copy; 2026 Tisha Lathwal | ApexPlanet Internship - Task 2</p>
   </footer>
