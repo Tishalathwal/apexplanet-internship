@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Task 3 - Advanced JavaScript</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- header -->
+  <header>
+    <h1>Advanced Styling and JavaScript</h1>
+    <p>Quiz | Joke API | Responsive Design</p>
+  </header>
+
+  <!-- navigation -->
+  <nav>
+    <a href="#quiz">Quiz</a>
+    <a href="#joke">Joke Generator</a>
+  </nav>
+
+  <!-- main -->
+  <main>
+
+    <!-- quiz section -->
+    <section id="quiz" class="card">
+      <h2>Basic Quiz</h2>
+      <p id="question">Click Start to begin the quiz!</p>
+      <div id="options"></div>
+      <p id="feedback"></p>
+      <p id="score"></p>
+      <button class="btn" id="startBtn">Start Quiz</button>
+      <button class="btn" id="nextBtn" style="display:none;">Next Question</button>
+    </section>
+
+    <!-- joke api section -->
+    <section id="joke" class="card">
+      <h2>Joke Generator</h2>
+      <p>Click the button to fetch a random joke!</p>
+      <div id="jokeBox">
+        <p id="jokeSetup"></p>
+        <p id="jokePunchline"></p>
+      </div>
+      <button class="btn" id="jokeBtn">Click me</button>
+    </section>
+
+  </main>
+
+  <!-- footer -->
+  <footer>
+    <p>&copy; 2026 Tisha Lathwal | ApexPlanet Internship - Task 3</p>
+  </footer>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
